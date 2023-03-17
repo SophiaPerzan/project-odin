@@ -1,6 +1,6 @@
-import { WorkflowCommand } from './WorkflowCommand';
-import { Command } from './WorkflowCommandProps';
-import './WorkflowCommandStyles.scss'
+import { WorkflowCommand } from '../workflow-command/WorkflowCommand';
+import { Command } from '../workflow-command/WorkflowCommandProps';
+import '../workflow-command/WorkflowCommandStyles.scss'
 
 export const WorkflowCommandBar: React.FC = () => {
 

@@ -1,6 +1,6 @@
 import { WorkflowUnitProps } from "./WorkflowUnitProps";
 import React from "react";
-import './WorkflowComponentStyles.scss';
+import '../../WorkflowComponentStyles.scss';
 import "./WorkflowUnitStyles.scss";
 
 const WorkflowUnit: React.FC<WorkflowUnitProps> = (props: WorkflowUnitProps) => {

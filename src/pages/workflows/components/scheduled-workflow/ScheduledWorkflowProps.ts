@@ -1,4 +1,4 @@
-import { Workflow } from "./models/Workflow"
+import { Workflow } from "../../models/Workflow"
 
 export interface ScheduledWorkflowProps {
 /**
