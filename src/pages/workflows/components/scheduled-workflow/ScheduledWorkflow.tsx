@@ -1,5 +1,5 @@
 import { ScheduledWorkflowProps } from "./ScheduledWorkflowProps"
-import "./WorkflowComponentStyles.scss"
+import "../../WorkflowComponentStyles.scss"
 import "./ScheduledWorkflowStyles.scss"
 import React from "react"
 

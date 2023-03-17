@@ -1,8 +1,8 @@
-import { ScheduledWorkflow } from "./ScheduledWorkflow";
-import { Workflow } from "./models/Workflow";
+import { ScheduledWorkflow } from "../scheduled-workflow/ScheduledWorkflow";
+import { Workflow } from "../../models/Workflow";
 import * as icons from '@ant-design/icons/lib/icons';
-import "./WorkflowComponentStyles.scss"
-import "./ScheduledWorkflowStyles.scss"
+import "../../WorkflowComponentStyles.scss"
+import "../scheduled-workflow/ScheduledWorkflowStyles.scss"
 
 export const ScheduledWorkflowBar: React.FC = () => {
 
