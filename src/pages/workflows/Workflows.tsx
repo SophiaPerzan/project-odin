@@ -1,8 +1,6 @@
 import DashboardLayout from '../../components/layouts/DashboardLayout';
-import { Workflow } from './models/Workflow';
 import WorkflowUnit from './components/workflow-unit/WorkflowUnit';
 import { WorkflowCommandBar } from './components/workflow-command-bar/WorkflowCommandBar';
-import * as icons from '@ant-design/icons/lib/icons';
 import { ScheduledWorkflowBar } from './components/scheduled-workflow-bar/ScheduledWorkflowBar';
 import { WorkflowService } from './services/WorkflowService';
 
