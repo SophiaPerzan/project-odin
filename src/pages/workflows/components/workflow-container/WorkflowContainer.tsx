@@ -1,6 +1,7 @@
 import { WorkflowService } from "../../services/WorkflowService";
 import WorkflowUnit from "../workflow-unit/WorkflowUnit";
 import { WorkflowContainerProps } from "./WorkflowContainerProps";
+import "./WorkflowContainerStyles.scss";
 
 export const WorkflowContainer: React.FC<WorkflowContainerProps> = (
     props: WorkflowContainerProps,
@@ -13,15 +14,8 @@ export const WorkflowContainer: React.FC<WorkflowContainerProps> = (
     });
 
     return (
-        <div
-            style={{
-                overflow: "auto",
-                display: "flex",
-                flexFlow: "column",
-                flex: "auto",
-            }}
-        >
-            {workflowUnits}
+        <div className="workflow-container">
+            <div>{workflowUnits}</div>
         </div>
     );
 };
