@@ -1,6 +1,6 @@
 export interface WorkflowContainerProps {
     /**
-     * @param workflowList The list of workflows to display.
+     * @param userID The id of the user.
      */
     userID: string;
 }
